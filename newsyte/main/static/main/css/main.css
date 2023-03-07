@@ -1,0 +1,90 @@
+body{
+    background: #000000;
+}
+
+aside{
+    float: left;
+    background: #181818;
+    width: 20%;
+    padding: 2%;
+    height: 100vh;
+    color: aliceblue;
+    border-right: 3px solid #4d4d4d;
+}
+
+aside img {
+    width: 165px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 35px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: 25px;
+    left: -10px;
+}
+
+aside h3 {
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+aside ul{
+    list-style: none;
+}
+
+aside ul li{
+    color: aliceblue;
+    display: block;
+    margin-top:20px;
+    transition: all .3s ease;
+}
+
+aside ul li:hover, aside ul a:hover{
+    color: #78ff90;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features {
+    float: left;
+    color: aliceblue;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1 {font-size: 50px;}
+main .features p {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 36%;
+    text-align: left;
+    background: rgb(251, 238, 155); 
+    padding: 10px; 
+    border: 1px solid rgb(255, 252, 80);
+    color: #8c6400; 
+}
+
+.form {
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+    color: aliceblue;
+}
+
+.about {
+    color: aliceblue;
+}
+
+.cont {
+    color: aliceblue;
+}
